@@ -1,14 +1,17 @@
+import { PageInfo } from '@/typings';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 
-type Props = {}
+type Props = {
+    pageInfo: PageInfo;
+}
 
-function Hero({}: Props) {
+function Hero({pageInfo}: Props) {
     const [text, count] = useTypewriter({
-        words: ["Hi, The Name's Mahir Patel","Guy-who-loves-Coffee.tsx","<ButLovesToCodeMore />"],
+        words: [`Hi, The Name's Mahir patel`,"Guy-who-loves-Coffee.tsx","<ButLovesToCodeMore />"],
         loop: true,
         delaySpeed: 2000,
     });

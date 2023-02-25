@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import React from 'react'
 
 type Props = {}
@@ -15,7 +14,7 @@ function About({}: Props) {
             <h4 className='text-4xl font-semibold'>
                 Here is a {" "}<span className='underline decoration-[#F7AB0A]/50'>little</span>{" "}background 
             </h4>
-            <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi porro, facilis sapiente assumenda eius officia dolore tenetur dolorem neque aliquid, odit libero! Consequatur error blanditiis perferendis illo magni, id, ex cupiditate nostrum quibusdam nemo voluptatum placeat deserunt voluptatibus sit quos qui sed, fugiat possimus! Amet quos nobis commodi voluptas tempore facilis illo similique, corrupti eligendi id saepe esse perferendis libero debitis officia et fuga est. Doloribus odit quisquam eum, velit eligendi assumenda repellat cumque quasi esse. Deserunt iure provident maxime hic! A, ratione perferendis distinctio porro quidem, expedita dolorem ducimus, repellendus impedit cumque explicabo. Laborum deleniti vel sapiente autem beatae consectetur praesentium eius error totam atque! Tenetur, sapiente. Alias magnam harum autem expedita sint nostrum? Optio ducimus harum impedit sint eaque saepe officia soluta itaque a reprehenderit! Voluptatum dolores accusamus facilis totam voluptates, nulla mollitia rerum fugit.</p>
+            <p className='text-sm'>I am Mahir Patel. 💯 I am currently pursuing Computer Science in University of California Riverside. I have been coding for 3 years . As a Full Stack Developer, Currently I am  working as a Backend Developer in the company. I learned Web- development, App-deveopment and Data Science on my own. My main goal is to achieve the success in AI/ML 🤙. I also did some amazing projects based on Full stack development and currently working on some real-world projects for Data Science. Please, Have a look on your on ✌️. </p>
         </div>
     </motion.div>
   )
