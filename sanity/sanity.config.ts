@@ -1,5 +1,5 @@
 import {deskTool} from 'sanity/desk';
-import {visionTool} from '@sanity/vision';
+import {visionTool} from '@sanity/vision/src';
 import {schemaTypes} from './schemas';
 import  {defineConfig}  from "sanity/lib/exports";
 
